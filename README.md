@@ -1,4 +1,4 @@
-# 🌊 Flood-It Pro
+#  Flood-It Pro
 
 > A feature-rich Java Swing implementation of the classic Flood-It puzzle game — enhanced with BFS flood fill, Divide & Conquer color analysis, and a Greedy bot opponent.
 
@@ -8,15 +8,7 @@
 
 Starting from the **top-left corner**, you select colors to "flood" the board outward. Each turn, your region expands to absorb all adjacent cells of the chosen color. The goal: make the **entire grid a single color** in as few moves as possible.
 
-```
-Before              After selecting Blue
-┌──┬──┬──┬──┐       ┌──┬──┬──┬──┐
-│🔴│🔵│🟢│🔴│       │🔵│🔵│🟢│🔴│
-├──┼──┼──┼──┤  ───▶  ├──┼──┼──┼──┤
-│🔴│🔴│🟡│🟢│       │🔵│🔵│🟡│🟢│
-└──┴──┴──┴──┘       └──┴──┴──┴──┘
-  Region: 3 cells      Region: 5 cells
-```
+
 
 ---
 
